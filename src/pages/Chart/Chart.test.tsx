@@ -17,7 +17,7 @@ import { http, HttpResponse } from 'msw'
 import { basePath } from '../../services/__mock__/handlers.ts'
 import QUOTE from '../../services/__mock__/v8_quote.json'
 import { setupServer } from 'msw/node'
-import 'jest-canvas-mock'
+import 'vitest-canvas-mock'
 
 const handlers = [
   http.get(`${basePath}/v8/finance/chart/:symbol`, (req) => {
@@ -88,7 +88,7 @@ describe('Chart Component', () => {
   })
 
   // Test to check if the chart data is displayed when data is successfully fetched
-  it.only('should display chart data when data is successfully fetched', async () => {
+  it('should display chart data when data is successfully fetched', async () => {
     render(
       <MemoryRouter>
         <QueryClientProvider client={queryClient}>
