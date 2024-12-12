@@ -19,8 +19,8 @@ import QUOTE from '../../services/__mock__/v8_quote.json'
 import { setupServer } from 'msw/node'
 
 const handlers = [
-  http.get(`${basePath}/v8/finance/chart/:symbol`, ({ request }) => {
-    const symbols = request.params.symbol
+  http.get(`${basePath}/v8/finance/chart/:symbol`, (req) => {
+    const symbols = req.params.symbol
 
     if (symbols === 'AAPL') {
       return HttpResponse.json(QUOTE, { status: 200 })
