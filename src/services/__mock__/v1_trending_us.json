@@ -1,0 +1,74 @@
+{
+  "finance": {
+    "result": [
+      {
+        "count": 20,
+        "quotes": [
+          {
+            "symbol": "ORCL"
+          },
+          {
+            "symbol": "AMD"
+          },
+          {
+            "symbol": "NIO"
+          },
+          {
+            "symbol": "MDB"
+          },
+          {
+            "symbol": "RIVN"
+          },
+          {
+            "symbol": "GOOG"
+          },
+          {
+            "symbol": "TSM"
+          },
+          {
+            "symbol": "LLY"
+          },
+          {
+            "symbol": "SPNO.CO"
+          },
+          {
+            "symbol": "AAPL"
+          },
+          {
+            "symbol": "LDTC"
+          },
+          {
+            "symbol": "DIE.BR"
+          },
+          {
+            "symbol": "HSY"
+          },
+          {
+            "symbol": "BILI"
+          },
+          {
+            "symbol": "CMRX"
+          },
+          {
+            "symbol": "BB"
+          },
+          {
+            "symbol": "PLUG"
+          },
+          {
+            "symbol": "XIACF"
+          },
+          {
+            "symbol": "GOOGL"
+          },
+          {
+            "symbol": "AHT.L"
+          }
+        ],
+        "jobTimestamp": 1733821756639,
+        "startInterval": 202412100800
+      }
+    ],
+    "error": null
+  }
+}

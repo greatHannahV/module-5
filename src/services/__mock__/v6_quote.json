@@ -1,0 +1,32 @@
+{
+  "quoteResponse": {
+    "result": [
+      {
+        "language": "en-US",
+        "region": "US",
+        "quoteType": "MUTUALFUND",
+        "typeDisp": "Fund",
+        "quoteSourceName": "Delayed Quote",
+        "triggerable": false,
+        "customPriceAlertConfidence": "NONE",
+        "hasPrePostMarketData": false,
+        "priceHint": 2,
+        "regularMarketTime": 1561759658,
+        "fullExchangeName": "YHD",
+        "exchange": "YHD",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeTimezoneShortName": "EST",
+        "gmtOffSetMilliseconds": -18000000,
+        "market": "us_market",
+        "esgPopulated": false,
+        "marketState": "PRE",
+        "sourceInterval": 15,
+        "exchangeDataDelayedBy": 0,
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "symbol": "APPL"
+      }
+    ],
+    "error": null
+  }
+}
