@@ -17,6 +17,7 @@ import { http, HttpResponse } from 'msw'
 import { basePath } from '../../services/__mock__/handlers.ts'
 import QUOTE from '../../services/__mock__/v8_quote.json'
 import { setupServer } from 'msw/node'
+import 'jest-canvas-mock'
 
 const handlers = [
   http.get(`${basePath}/v8/finance/chart/:symbol`, (req) => {

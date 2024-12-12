@@ -84,9 +84,9 @@ export function isFinanceResult(result: unknown): result is Stock[] {
     result.every((item) => StockSchema.safeParse(item).success)
   )
 }
-// export function isChartData(result: unknown): result is ChartData[] {
-//   return ChartDataSchema.safeParse(result).success;
-// }
+export function isChartData(result: unknown): result is ChartData[] {
+  return ChartDataSchema.safeParse(result).success
+}
 
 export function isString(value: unknown): value is string {
   return typeof value === 'string'
